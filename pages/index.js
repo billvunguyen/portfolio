@@ -92,10 +92,6 @@ const Page = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2017</BioYear>
-                    Étudié à l&apos;université des sciences Hochiminh ville
-                </BioSection>
-                <BioSection>
-                    <BioYear>2019</BioYear>
                     Étudié à l&apos;université Claude Bernard Lyon 1
                 </BioSection>
                 <BioSection>
