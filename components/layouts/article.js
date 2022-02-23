@@ -12,9 +12,10 @@ const Layout = ({ children, title}) => (
     <motion.article
     initial="hidden" animate="enter" exit="exit" variants={variants} transition={{duration: 0.4, type: 'easeInOut'}} style={{ position: 'relative' }}>
         <>
-            {title && ( <Head>
-                <title>{title} - Phuong Huy VU NGUYEN</title>
-            </Head>
+            {title && ( 
+                <Head>
+                    <title>{title} - Phuong Huy VU NGUYEN</title>
+                </Head>
             )}
             {children}
             <GridItemStyle  />
