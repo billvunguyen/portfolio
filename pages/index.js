@@ -8,7 +8,6 @@ import {
     List,
     ListItem,
     Icon,
-    SimpleGrid
 } from '@chakra-ui/react'
 import Image from 'next/image'
 import Section from '../components/section'
@@ -17,15 +16,7 @@ import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
-import {
-    IoLogoTwitter,
-    IoLogoInstagram,
-    IoLogoGithub,
-    IoLogoDiscord,
-    IoLogoLinkedin,
-    
-} from 'react-icons/io5'
+import { IoLogoLinkedin } from 'react-icons/io5'
 import { IoMdMail } from 'react-icons/io'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { MdPlace } from 'react-icons/md'
