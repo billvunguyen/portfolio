@@ -44,7 +44,7 @@ const Navbar = props => {
         as="nav"
         w="100%"
         bg={useColorModeValue('#ffffff40', '#20202380')}
-        style={{backdropFilter: 'blur(10px)' }}
+        css={{backdropFilter: 'blur(10px)' }}
         zIndex={1}
         {...props}>
             <Container 
@@ -68,9 +68,8 @@ const Navbar = props => {
                     alignItems="center"
                     flexGrow={1}
                     mt={{ base: 4, nmd: 0}}
-                    mb={7.5}
                 >
-                    <LinkItem href="/works" path={path}>
+                    <LinkItem mt={2} href="/works" path={path}>
                         Works
                     </LinkItem>
                 </Stack>

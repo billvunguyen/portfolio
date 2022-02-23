@@ -24,11 +24,11 @@ const Logo = () => {
         <Link href="/">
             <a>
                 <LogoBox>
-                    <Image src={mikoLogo} width={75} height={75} alt="logo"/>
+                    <Image src={mikoLogo} width={50} height={50} alt="logo"/>
                     <Text color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                             fontFamily='M PLUS Rounded 1c'
                             fontWeight="bold"
-                            ml={3}>
+                            ml={1}>
                                 Phuong Huy VU NGUYEN
                     </Text>
                 </LogoBox>
