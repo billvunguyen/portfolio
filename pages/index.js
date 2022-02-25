@@ -23,7 +23,7 @@ import { MdPlace } from 'react-icons/md'
 
 
 const Page = () => {
-    const avatar = require(`/public/images/IMG_6922.jpg`)
+    const avatar = require(`/public/images/IMG_9081.jpg`)
     const thumbnailHeader = require(`/public/images/IMG_0273.JPG`)
     return(
         <Layout>
@@ -46,7 +46,7 @@ const Page = () => {
                 <Box display={{md:'flex'}}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
-                            Phuong Huy VU NGUYEN
+                            Nguyen Phuong Huy VU
                         </Heading>
                         <p>DevOps / Développeur web / Développeur d&apos;application</p>
                     </Box>
@@ -71,7 +71,7 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         À propos de moi
                     </Heading>
-                    <Paragraph> Actuellement en Bac +4 au sein du programme MsC Pro d&apos;EPITECH. Je souhaite m&apos;orienter vers la spécialité Cloud Computing pour donner suite à ma première expertise de DevOps et le Système. Pour cela, je cherche à intégrer une entreprise 3 jours par semaine en rythme alterné afin de contribuer avec mes premières solides compétences et développer de nouvelle expertises. En plus, je suis ouvert à toute proposition.{''}
+                    <Paragraph> Actuellement en BAC +4 au sein du programme MsC Pro d&apos;EPITECH. Je souhaite m&apos;orienter vers la spécialité Cloud Computing pour donner suite à ma première expertise de DevOps et le Système. Pour cela, je cherche à intégrer une entreprise 3 jours par semaine en rythme alterné afin de contribuer avec mes premières solides compétences et développer de nouvelle expertises. En plus, je suis ouvert à toute proposition.{''}
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
@@ -83,24 +83,13 @@ const Page = () => {
                 </Section>
 
             <Section delay={0.2}>
-                <Heading as="h3" variant="section-title">
-                    Bio
-                </Heading>
                 <BioSection>
-                    <BioYear>1999</BioYear>
-                    Né à Saigon, Vietnam.
-                </BioSection>
-                <BioSection>
-                    <BioYear>2017</BioYear>
-                    Étudié à l&apos;université Claude Bernard Lyon 1
-                </BioSection>
-                <BioSection>
-                    <BioYear>2020</BioYear>
+                    <BioYear>2017 - 2020</BioYear>
                     Obtenu le licence de SCIENCES, TECHNOLOGIES, SANTE, mention INFORMATIQUE à l&apos;université Claude Bernard Lyon 1
                 </BioSection>
                 <BioSection>
                     <BioYear>2021</BioYear>
-                    Étudié à EPITECH - LYON
+                    Étudié à EPITECH
                 </BioSection>
                 <BioSection>
                     <BioYear>2023 (Prévue)</BioYear>
@@ -110,7 +99,7 @@ const Page = () => {
 
             <Section delay={0.3}>
                 <Heading as="h3" variant="section-title">
-                    I ♥
+                    Loisir
                 </Heading>
                 <Paragraph>
                     Voyage, Musique, Piano, Conception et Photographe

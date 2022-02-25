@@ -12,7 +12,7 @@ const Main = ({ children, router }) => {
                 <link rel="apple-touch-icon" href="/public/apple-touch-icon.png"/>
                 <link rel="shortcut icon" href={favicon.src} type="image/x-icon" />
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <title>Phuong Huy VU NGUYEN - Homepage</title>
+                <title>Nguyen Phuong Huy VU - Homepage</title>
             </Head>
 
             <Navbar path={router.asPath}/>

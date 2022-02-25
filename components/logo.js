@@ -29,7 +29,7 @@ const Logo = () => {
                             fontFamily='M PLUS Rounded 1c'
                             fontWeight="bold"
                             ml={1}>
-                                Phuong Huy VU NGUYEN
+                                Nguyen Phuong Huy VU
                     </Text>
                 </LogoBox>
             </a>
